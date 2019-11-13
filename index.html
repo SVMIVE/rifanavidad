@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es" >
+<head>
+  <meta charset="UTF-8">
+  <title>Ruleta</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="css/ruleta.css">
+</head>
+
+<body class="bg">
+    
+  
+  <div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+      <div class="row">
+        <div class="col-md-3">        
+          <center><canvas id="ruletaA" width="400" height="400"></canvas></center>
+        </div>
+        <div class="col-md-3">
+          <center><canvas id="ruletaB" width="400" height="400"></canvas></center>
+        </div>
+        <div class="col-md-3">
+          <center><canvas id="ruletaC" width="400" height="400"></canvas></center>
+        </div>
+        <div class="col-md-3">
+          <center><canvas id="ruletaD" width="400" height="400"></canvas></center>
+        </div>        
+      </div>
+
+
+    </div>
+     <div class="col-md-2"></div>
+  </div> 
+  
+
+
+  <div class="row">
+   <div class="col-md-2"></div>
+    <div class="col-md-8">
+      <div class="row">
+        <div class="col-md-3">        
+          <center><canvas id="ruletaE" width="400" height="400"></canvas></center>
+        </div>
+        <div class="col-md-3">
+          <center><canvas id="ruletaF" width="400" height="400"></canvas></center>
+        </div>
+        <div class="col-md-3">
+          <center><canvas id="ruletaG" width="400" height="400"></canvas></center>
+        </div>
+        <div class="col-md-3">
+          <center><canvas id="ruletaH" width="400" height="400"></canvas></center>
+        </div>        
+      </div>
+    </div>
+     <div class="col-md-2"></div>
+  </div>
+
+
+
+  <div class="row">
+    <div class="col-md-3"></div>
+    <div class="col-md-8">
+      <center>
+        <button type="button" class="btn btn-danger" onclick="Girar()">Girar Ruleta</button>
+        <ul id="txtContenido">
+        </ul>
+      </center> 
+    </div>
+     <div class="col-md-1"></div>
+  </div>
+
+  <script  src="js/ruleta.js"></script>
+  <script  src="js/operar.js"></script>
+
+</body>
+</html>
